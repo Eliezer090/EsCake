@@ -5,8 +5,8 @@ from django.conf import settings
         
 class Produto(models.Model):
     ProdutoCodigo = models.AutoField(primary_key=True)
-    ProdutoNome = models.CharField(max_length=255)
-    ProdutoDescricao = models.CharField(max_length=255)
+    ProdutoNome = models.CharField(max_length=55)
+    ProdutoDescricao = models.CharField(max_length=2000)
     ProdutoValor = models.FloatField()
 
     def __str__(self):

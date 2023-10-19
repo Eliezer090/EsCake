@@ -37,7 +37,7 @@
     {% endwith %}
       <a href="{% url 'acessardetalhes' produto.ProdutoCodigo %}" style="display: block;">
       <div class="container-descricao">      
-        <p class="prod-descricao">{{ produto.ProdutoDescricao }}</p>
+        <p class="prod-descricao">{{ produto.ProdutoNome }}</p>
         <div class="line-price-actions">
           <p class="prod-preco">R$ {{ produto.ProdutoValor }}</p>
           <div class="actions">
