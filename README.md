@@ -4,6 +4,9 @@
 - Python
 - Django
 - SQLite3
+- HTML
+- JavaScript
+- CSS
 
 # Um pouco do processo de desenvolvimento:
 - O desenvolvimento foi baseado no que o django tinha a oferecer, toda a parte de controle de transções e sua arquitetura MVC onde a mesma facilita para entendimento e conseguir se encontrar durante o desenvolvimento.
